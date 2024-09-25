@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/page%201.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="geo">Geographic</h1>
+
+    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    
+        <link rel="stylesheet" href="./Document_files/styles.css">
+    
+    
+    
+        
+    
+    <header>
+        
+        <nav>
+           <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li id="active"><a href="http://127.0.0.1:5500/page%201.html">Page 1</a></li>
+            <li><a href="http://127.0.0.1:5500/page%202.html">Page 2</a></li>
+            <li><a href="http://127.0.0.1:5500/page%203.html">Page 3</a></li>
+           </ul>
+        </nav>
+    
+    </header>
+
+    <h1 class="hello">
+        Fact You Didn't Know About Switzerland
+    </h1>
+    
+    
+    
+    
+    
+    <main>
+
+
+        <p>
+            Swtizerland has around 7000 lakes. According to <a href="https://studyinginswitzerland.com/switzerland-facts/">Studying in Switzerland</a> most of the lakes in the country are safe to swim in. One thing though, if you can't see the bottom of the lake, it's considered dirty, and most likely not the best place to swim in.
+
+        </p>
+
+        <p>
+            Most lakes in Switzerland are actually safe to drink from, but you do need to watch out for any bacteria, algae, or water clearness.
+        </p>
+
+        <img src="./Document_files/lake.jpg" alt="" style="width: 70%;" class="boo">
+
+        
+        
+    
+    </main>
+    
+    
+    
+    
+    <footer>
+    
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
